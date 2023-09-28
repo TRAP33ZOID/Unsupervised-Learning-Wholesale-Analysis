@@ -1,17 +1,40 @@
-# machine_learning_project-unsupervised-learning
+Unsupervised Machine Learning Analysis on Wholesale Data
 
-## Project Outcomes
-- Unsupervised Learning: perform unsupervised learning techniques on a wholesale data dataset. The project involves four main parts: exploratory data analysis and pre-processing, KMeans clustering, hierarchical clustering, and PCA.
-### Duration:
-Approximately 1 hour and 40 minutes
-### Project Description:
-In this project, we will apply unsupervised learning techniques to a real-world data set and use data visualization tools to communicate the insights gained from the analysis.
+This project aims to analyze the purchasing behavior of clients of a wholesale distributor. The dataset contains annual spending in monetary units on diverse product categories.
+Project Structure:
 
-The data set for this project is the "Wholesale Data" dataset containing information about various products sold by a grocery store.
-The project will involve the following tasks:
+    Data Import:
+        Loaded the dataset into Python for analysis.
 
--	Exploratory data analysis and pre-processing: We will import and clean the data sets, analyze and visualize the relationships between the different variables, handle missing values and outliers, and perform feature engineering as needed.
--	Unsupervised learning: We will use the Wholesale Data dataset to perform k-means clustering, hierarchical clustering, and principal component analysis (PCA) to identify patterns and group similar data points together. We will determine the optimal number of clusters and communicate the insights gained through data visualization.
+    Data Cleaning:
+        Checked for missing or erroneous data.
+        Imputed missing values and corrected obvious errors.
 
-The ultimate goal of the project is to gain insights from the data sets and communicate these insights to stakeholders using appropriate visualizations and metrics to make informed decisions based on the business questions asked."
+    Exploratory Data Analysis (EDA):
+        Generated summary statistics for each column.
+        Visualized data distributions, relationships, and correlations.
+        Detected and handled outliers.
 
+    KMeans Clustering:
+        Preprocessed the data.
+        Determined the optimal number of clusters.
+        Performed KMeans clustering to segment the data.
+
+    Hierarchical Clustering:
+        Visualized the hierarchical structure using a dendrogram.
+        Extracted clusters from the hierarchical structure.
+
+    Principal Component Analysis (PCA):
+        Performed PCA to identify the underlying structure of the data.
+        Analyzed which combinations of features best describe the customers.
+
+Key Findings:
+
+    Customer Segmentation: KMeans clustering identified two main groups of customers with distinct purchasing patterns.
+    Hierarchical Structure: Hierarchical clustering revealed a clear data structure with potential for multi-level analysis.
+    PCA Insights: A few principal components explained a significant portion of the variance, indicating feature redundancy.
+    Correlations: Some product categories, like "Grocery" and "Detergents_Paper", showed strong correlations, indicating co-purchasing trends.
+
+Conclusions:
+
+The analyses provided insights into customer purchasing behaviors, offering valuable information for targeted marketing, inventory management, and other business strategies.
