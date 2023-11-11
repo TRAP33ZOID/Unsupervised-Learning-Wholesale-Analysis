@@ -1,4 +1,4 @@
-Unsupervised Machine Learning Analysis on Wholesale Data
+# Unsupervised-Learning-Wholesale-Analysis 
 
 This project aims to analyze the purchasing behavior of clients of a wholesale distributor. The dataset contains annual spending in monetary units on diverse product categories.
 Project Structure:
